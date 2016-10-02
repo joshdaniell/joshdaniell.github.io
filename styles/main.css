@@ -1,8 +1,10 @@
 body {
   font-family: arial;
-  background: #999;
+  background: #CFE2E8;
+  padding: 0px 10px;
+  margin: 5px 20px;
 }
 
-ul {
-  display: inline-block;
+h1 {
+  font-family: fantasy;
 }
