@@ -1,0 +1,8 @@
+body {
+  font-family: arial;
+  background: #999;
+}
+
+ul {
+  display: inline-block;
+}
