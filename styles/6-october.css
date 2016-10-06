@@ -1,0 +1,24 @@
+html {
+  background-color: #eaf0f9;
+}
+body {
+  font-family: avenir;
+  max-width: 560px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 30px;
+}
+
+header {
+  border-bottom: 1px solid #333;
+}
+
+section {
+  border-bottom: 1px dotted #333;
+}
+
+footer {
+  margin-top: 50px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles/6-october.css" media="screen" title="no title" type="text/css">
+    <title>HTML - CSS - DOM - P1</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML - CSS - DOM - P1</h1>
+    </header>
+
+    <nav>
+      <p>
+        <a href="../index.html">Home</a>
+      </p>
+    </nav>
+
+    <section>
+      <h3>Analogy to describe HTML, CSS and the DOM</h3>
+        <p>HTML contains the content that will be displayed on a webpage. CSS contains the style rules that will be applied to that content. HTML and CSS are kept in separate documents to make a wesbite more modular and easier to scale.</p>
+        <p>The DOM is the combined HTML and CSS that the browser uses to display content on a webpage. It could be exactly the same as the HTML code, but it could also differ due to Javascript or other code which changes the content before or after it's rendered.</p>
+        <p>Now I need an analogy. How about an excel spreadsheet which includes macros that update certain inputs. If you send that spreadsheet (the HTML code in this analogy) old mate Trevor, he could open that using his Microsoft sofware (the browser) and see exactly the same "HTML content". However the macros could pull in new data to create a modified version of the spreadsheet that was originally sent to Trevor. This modified version (the "DOM") is what is rendered through Trevor's "browser". It's analagous to the DOM that your Chrome brower renders after compiling the HTML, CSS, and any other scripts included in the code.</p>
+    </section>
+
+    <section>
+      <h3>What is meant by boxifying design</h3>
+        <p>Every webpage consists of an underlying grid. Every bit of content will sit somewhere on this grid.</p>
+        <p>In order to modify the default layout, we need to define the position and charactistics of each bit of content. The easiest way to do this is to group relevant chunks of content into boxes (also called containers). Once we have content in a container, we can apply styling and rules to that container to manipulate its characteristics. These design rules can then be easily applied to other relevant containers by giving them the same "class" or "id".</p>
+        <p>Boxifying design makes code easier to understand, easier to manipulate, more modular, and more scalable.</p>
+    </section>
+
+    <section>
+      <h3>What is the box model</h3>
+        <p>As above, the box model refers to the fact that the content on every webpage is attached to an underlying grid. An understanding of the box model is required in order to manipulate the design of the content.</p>
+    </section>
+
+    <section>
+      <h3>Design and structural features that I'd like to use in designs next week</h3>
+        <ul>
+          <li>Sticky header.</li>
+          <li>Centered content that dynamically adjusts as the browser window changes size.</li>
+          <li>Get comfortable creating columns.</li>
+          <li>Get comfortable using floats.</li>
+          <li>Get comfortable understanding and using Bootstrap.</li>
+          <li>Get comfortable with the default code for beginning a CSS file (CSS reset and any other relevant code related to Bootstrap or other).</li>
+        </ul>
+    </section>
+
+    <footer>
+      <p>Copyright 2016</p>
+    </footer>
+
+  </body>
+</html>
