@@ -1,0 +1,18 @@
+.container {
+  max-width: 860px;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid;
+}
+
+.home-page {
+  border-left: 1px solid;
+  padding-left: 50px
+}
+
+.logo {
+  font-family: monospace;
+}
