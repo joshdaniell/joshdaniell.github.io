@@ -21,3 +21,14 @@ img {
 .logo {
   font-family: monospace;
 }
+
+.rotating-item {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#rotating-item-wrapper {
+  position: relative;
+}
